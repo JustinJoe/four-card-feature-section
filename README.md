@@ -12,7 +12,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -26,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile Screenshot](./screenshot.jpg)
+![Desktop Screenshot](./images/desktop-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://github.com/JustinJoe/four-card-feature-section)
+- Live Site URL: [Four Card Feature Section](https://four-card-feature-section-justinjoe.vercel.app/)
 
 ## My process
 
@@ -44,14 +43,9 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Improved my thought process on structuring HTML to help write CSS faster and easier
 
 ### Continued development
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 

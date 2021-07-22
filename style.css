@@ -70,12 +70,15 @@ p {
 }
 
 /*Card*/
-.card {
-  margin-top: 1.2em;
+.card-item {
+  margin: 1.2em auto 0;
   box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   padding: 0 1.5em 1em;
   background-color: white;
+  width: 20em;
+  max-width: 90%;
+  height: 10em;
 }
 
 .supervisor {
@@ -94,19 +97,56 @@ p {
   border-top: 4px solid var(--blue);
 }
 
-.card h3 {
+.card-item h3 {
   padding-top: 1em;
+  padding-bottom: 0.25em;
 }
 
 /*Footer*/
 footer {
   margin-top: 1.5rem;
 }
-.attribution {
-  font-size: 11px;
+
+.attribution,
+a {
   text-align: center;
+  font-size: 11px;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 48em) {
+  .content {
+    max-width: 80%;
+  }
+
+  .intro {
+    text-align: center;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+  }
+
+  .card-item,
+  .column {
+    width: 100%;
+  }
+
+  .column .card-item {
+    margin-inline: 0;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75em;
+  }
 }
